@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (form.checkValidity()) {
       try {
         alert('Thank you for your time!');
+        form.reset();
       } catch (e) {
         console.log('ERROR!');
       }
