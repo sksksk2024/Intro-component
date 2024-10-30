@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- CSS -->
+   <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body class="3xs:text-sm 2xs:text-md lg:text-lg 3xs:p-10P 2xs:p-10 flex flex-col justify-center items-center leading-7">
+
+  <main class="flex 3xs:flex-col lg:flex-row items-center justify-center gap-16">
+    <!-- Section 1 -->
+
+    <section class="text-white 3xs:text-center lg:text-start container-sm 3xs:w-full lg:w-1/2">
+      <h1 class="font-bold  3xs:text-lg 2xs:text-2xl lg:text-5xl 3xs:leading-8 2xs:leading-10">
+        Learn to code by watching others
+      </h1>
+    
+      <p class="3xs:mt-16M">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section class="3xs:2-full lg:w-1/2">
+
+      <h2 class="text-white text-center mb-48M bg-blue p-6 px-48P rounded-10BR">
+        <span class="font-bold">Try it free 7 days</span>
+        then $20/mo. thereafter
+      </h2>
+
+      <form id="myForm" class="flex flex-col items-center justify-center gap-4 p-10 bg-white rounded-10BR">
+        <input class="border-1BW border-grayish-blue border-solid rounded-5BR p-16P font-600 text-dark-blue placeholder-dark-blue focus:border-none focus:ring-2 focus:ring-grayish-blue w-full" type="text" placeholder="First Name" required/>
+        
+        <input class="border-1BW border-grayish-blue border-solid rounded-5BR p-16P font-600 text-dark-blue placeholder-dark-blue focus:border-none focus:ring-2 focus:ring-grayish-blue w-full" type="text" placeholder="Last Name" required/>
+        
+        <input class="border-1BW border-grayish-blue border-solid rounded-5BR p-16P font-600 text-dark-blue placeholder-dark-blue focus:border-none focus:ring-2 focus:ring-grayish-blue w-full" type="email" placeholder="Email Address" required/>
+        
+        <input class="border-1BW border-grayish-blue border-solid rounded-5BR p-16P font-600 text-dark-blue placeholder-dark-blue focus:border-none focus:ring-2 focus:ring-grayish-blue w-full" type="text" placeholder="Password" required/>
+
+        <button class="bg-green p-16P text-white rounded-5BR font-600 uppercase w-full tracking-wider" type="submit">
+          Claim your free trial
+        </button>
+
+        <h3 class="text-center text-grayish-blue text-xs w-3/5">
+          By clicking the button, you are agreeing to our 
+          <span class="text-red">Terms and Services</span>
+        </h3>
+      </form>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
